@@ -45,7 +45,7 @@ Options:
 Example
 -------
 
-Create a side-by-side booklet with 40-page signatures:
+Create a side-by-side booklet with 40-page signatures, which means 10 A4 papers per group:
 
 ```bash
 python3 pdf_to_book.py "../book.pdf" "../book_sig40_side.pdf" --mode side --signature 40
