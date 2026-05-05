@@ -11,6 +11,7 @@ Key features:
 - Pads the input PDF to a multiple of 4 pages by adding blank A4 pages.
 - Reorders pages into booklet order (4 original pages per sheet).
 - Places two pages per A4 sheet in either left/right (`side`) or top/bottom (`stack`) layout.
+    - Better to choose side, as the stack mode hasn't been tested.
 - Supports processing in signatures (chunks) and rotates back pages for short-edge duplex alignment.
 
 Requirements
