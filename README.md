@@ -5,7 +5,7 @@ Overview
 --------
 
 This repository includes `pdf_to_book.py`, a small utility that rearranges a PDF into
-2-up A4 pages (two original pages per A4 sheet) suitable for duplex booklet printing.
+2-up A4 pages (2 original pages per A4 sheet per side, which means 4 original pages in both-side A4 paper) suitable for duplex booklet printing.
 
 Key features:
 - Pads the input PDF to a multiple of 4 pages by adding blank A4 pages.
