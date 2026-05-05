@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-Create a 2-up booklet-imposed PDF suitable for duplex printing (short-edge flip).
+Create a 2-up booklet-imposed PDF suitable for duplex printing (long-edge flip).
 
 Usage:
-    python3 pdf_booklet_shortedge.py input.pdf output.pdf [--mode side|stack]
+    python3 pdf_to_book.py input.pdf output.pdf [--mode side|stack] [--signature int_number]
+
+e.g.:  python3 pdf_to_book.py   "../book.pdf"   "../book_sig40_side.pdf"   --mode side --signature 40
 
 This script:
  - Pads the input PDF to a multiple of 4 pages by adding blank pages.
