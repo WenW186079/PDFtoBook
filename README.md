@@ -25,7 +25,7 @@ Installation
 Install the dependency from the included requirements file:
 
 ```bash
-pip install -r requirements-pdf-booklet.txt
+pip install -r requirements.txt
 ```
 
 Usage
