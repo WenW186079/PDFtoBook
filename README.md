@@ -18,7 +18,7 @@ Requirements
 ------------
 
 - Python 3.x
-- PyMuPDF (provided in `requirements-pdf-booklet.txt`)
+- PyMuPDF (provided in `requirements.txt`)
 
 Installation
 ------------
